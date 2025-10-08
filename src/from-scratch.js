@@ -13,11 +13,11 @@ const convertToFahrenheit = (celsius) => {
 
 // String & Variable Functions
 const createGreeting = (name) => {
- return `hello ${name}`
+ return `Hello, ${name}!`
 };
 
 const getInitials = (firstName, lastName) => {
-  return `${firstName[0]}${lastName[1]}`
+  return `${firstName[0]}${lastName[0]}`
 };
 
 const formatPrice = (price) => {
@@ -30,7 +30,7 @@ const getLarger = (num1, num2) => {
 };
 
 const isValidAge = (age) => {
-  return age>120 && age>0
+  return (age<=120 && age>=0)
 };
 
 module.exports = {
