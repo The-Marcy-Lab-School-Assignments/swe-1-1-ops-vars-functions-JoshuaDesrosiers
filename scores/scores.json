@@ -11,13 +11,13 @@
       "FrScTe8": 0
     },
     "Debug Tests": {
-      "DeTe1": 0,
-      "DeTe2": 0,
+      "DeTe1": 1,
+      "DeTe2": 1,
       "DeTe3": 0,
-      "DeTe4": 0
+      "DeTe4": 1
     },
     "Explicit to Implicit Tests": {
-      "ExtoImTe1": 0
+      "ExtoImTe1": 1
     },
     "Declarations to Arrow Tests": {
       "DetoArTe1": 0
@@ -57,9 +57,9 @@
   },
   "humanReadable": {
     "From Scratch Tests": "5/8",
-    "finalTestScore": "FINAL SCORE: 5/14",
-    "Debug Tests": "0/4",
-    "Explicit to Implicit Tests": "0/1",
+    "finalTestScore": "FINAL SCORE: 9/14",
+    "Debug Tests": "3/4",
+    "Explicit to Implicit Tests": "1/1",
     "Declarations to Arrow Tests": "0/1"
   }
 }
