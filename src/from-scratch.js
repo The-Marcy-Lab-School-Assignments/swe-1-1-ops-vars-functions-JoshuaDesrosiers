@@ -17,7 +17,7 @@ const createGreeting = (name) => {
 };
 
 const getInitials = (firstName, lastName) => {
-  return `${firstName[0]}.${lastName[1]}`
+  return `${firstName[0]}${lastName[1]}`
 };
 
 const formatPrice = (price) => {
